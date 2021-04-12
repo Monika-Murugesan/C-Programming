@@ -1,0 +1,8 @@
+#include<stdio.h>
+main()
+{
+	int grade=0;
+	printf("Enter your grade : ");
+	scanf("%d",&grade);
+	printf("%s",(grade>=85 && grade<=100? "GRADE A":(grade>=70 && grade<85? "GRADE B":(grade>=55 && grade<70?"GRADE C":(grade>=40 && grade<55?"GRADE D":"GRADE F")))));
+}
